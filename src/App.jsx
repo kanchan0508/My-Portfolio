@@ -34,8 +34,11 @@ function App() {
     </div>
     <About />
     <Experience />
+    <div className='relative'>
     <Tech />
     <Works />
+    <StarsCanvas />
+    </div>
     <Feedbacks />
     <div className='relative'>
       <Contact />
