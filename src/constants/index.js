@@ -127,45 +127,6 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
 ];
 
 const testimonials = [
@@ -220,6 +181,7 @@ const projects = [
     ],
     image: resume,
     source_code_link: "https://github.com/kanchan0508/Ai-Resume-Builder",
+    project_link: "https://ai-resume-builder-rho.vercel.app/"
   },
   {
     name: "Netflix GPT",
@@ -247,6 +209,33 @@ const projects = [
     source_code_link: "https://github.com/kanchan0508/Netflix-gpt",
   },
   {
+    name: "Background-removal",
+    description:
+      "A Background Removal Tool with payment integration! This tool allows users to easily upload images and remove backgrounds, with additional paid features for enhanced functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "green-text-gradient",
+      },
+
+    ],
+    image: Netflix,
+    source_code_link: "https://github.com/kanchan0508/Netflix-gpt",
+    project_link: "https://background-removal-app-one.vercel.app/"
+  },
+  {
     name: "Portfolio App",
     description:
       "The Portfolio App is a personal portfolio website that showcases your skills, experience, and projects in a visually appealing and interactive way. It allows users to view details about your professional background, technical expertise, and projects in an easily navigable format",
@@ -266,6 +255,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/kanchan0508/My-Portfolio",
+    project_link: "https://my-portfolio-nine-rosy-22.vercel.app/"
   },
 ];
 
